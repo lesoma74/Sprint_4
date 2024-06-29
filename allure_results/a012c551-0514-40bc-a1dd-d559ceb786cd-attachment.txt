@@ -1,2 +1,0 @@
-Setting up the driver and page objects
-Page and driver objects are initialized correctly
