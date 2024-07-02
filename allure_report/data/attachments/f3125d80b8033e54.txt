@@ -1,0 +1,23 @@
+Re-opening the browser
+Navigating to order page
+Filling out the order form with new data: Сергей, Сергеев, Москва, ул. Лесная, д. 10, Арбатская, +79996543210
+Checking the field values
+Clicking the next button
+Navigating to rent page
+Clicking on the delivery date field to open the calendar
+Calendar opened
+Waiting for the calendar to be clickable
+Today's date selected
+Selecting rental period
+Rental period dropdown clicked
+Rental period selected
+Selecting grey color option
+Grey color selected
+Entering courier comment
+Courier comment entered
+Clicking the order button
+Order button clicked
+Confirming the order
+Clicking the confirm button
+Order confirmed
+Teardown: Closing the driver
