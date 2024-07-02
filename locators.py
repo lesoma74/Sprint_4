@@ -26,7 +26,7 @@ class MainPageLocators:
     ]
 
     # Локатор для заголовка "Вопросы о важном"
-    important_questions_header = (By.CSS_SELECTOR, '#root > div > div > div.Home_FourPart__1uthg > div.Home_SubHeader__zwi_E')
+    important_questions_header = (By.XPATH, "//*[contains(text(), 'Вопросы о важном')]")
     # Локатор для альтернативной кнопки Заказать
     alternate_order_button = (By.CSS_SELECTOR, "button.Button_Button__ra12g.Button_Middle__1CSJM")
     # Локатор лого Самокат

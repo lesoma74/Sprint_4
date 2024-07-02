@@ -1,0 +1,22 @@
+Re-opening the browser
+Navigating to order page
+Filling out the order form with new data: Петр, Петров, Санкт-Петербург, ул. Ленина, д. Дом, Комсомольская, +79997654321
+Checking the field values
+Clicking the next button
+Navigating to rent page
+Clicking on the delivery date field to open the calendar
+Calendar opened
+Waiting for the calendar to be clickable
+Today's date selected
+Selecting rental period
+Rental period dropdown clicked
+Rental period selected
+Selecting black color option
+Black color selected
+Entering courier comment
+Courier comment entered
+Clicking the order button
+Order button clicked
+Confirming the order
+Clicking the confirm button
+Order confirmed

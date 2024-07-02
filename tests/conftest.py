@@ -4,6 +4,7 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 from page_objects.order_page import OrderForm
 from page_objects.rent_page import RentPage
+from config import MAIN_URL
 
 @pytest.fixture(scope="class")
 def setup(request):
@@ -19,7 +20,7 @@ def setup(request):
     request.cls.order_page = order_page
     request.cls.rent_page = rent_page
 
-    driver.get("https://qa-scooter.praktikum-services.ru/")
+    driver.get(MAIN_URL)
     yield
     driver.quit()
     print("Teardown: Closing the driver")
@@ -27,9 +28,15 @@ def setup(request):
 @pytest.fixture
 def driver():
     driver = webdriver.Firefox()
-    driver.get('https://qa-scooter.praktikum-services.ru/')
+    driver.get(MAIN_URL)
     yield driver
     driver.quit()
+
+
+
+
+
+
 
 
 
